@@ -1,0 +1,28 @@
+.Feed {
+    margin-top: 20px;
+  // border: 2px solid red;
+  .container {
+    display: flex;
+    gap: 30px;
+
+    .left-part {
+      height: 100vh;
+      flex: 2;
+      overflow: auto;
+    }
+
+    .right-part {
+      flex: 1;
+
+      .followers {
+        margin-top: 20px;
+      }
+      .suggestions {
+        margin-top: 20px;
+      }
+      .title {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
